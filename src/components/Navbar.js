@@ -1,10 +1,11 @@
 import React from 'react';
 
+
 const Navbar = () => {
     const menuElement=<>
                            <li className='mr-6'><a href="#home">Home</a></li>
                            <li className='mr-6'><a href="#about">About</a></li>
-                           <li className='mr-6'><a href="#skill">Skill</a></li>
+                           <li className='mr-6'><a href="#skills">Skill</a></li>
                            <li className='mr-6'><a href="#projects">Project</a></li>
                            <li className='mr-6'><a href="#contact">Contact</a></li> 
                       </>
@@ -35,7 +36,8 @@ const Navbar = () => {
     </ul>
   </div>
   <div class="navbar-end">
-    <a class="btn">Download Cv</a>
+    
+  
   </div>
 </div>
         </div>
