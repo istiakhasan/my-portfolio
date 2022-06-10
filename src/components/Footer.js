@@ -3,13 +3,13 @@ import { BsFacebook, BsLinkedin } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <footer className="footer items-center p-4 bg-primary text-neutral-content mt-10 px-32">
-      <div className="items-center grid-flow-col">
-        <p className="text-white font-mono">
+    <footer className="footer items-center p-4 bg-primary text-neutral-content mt-10 lg:px-32">
+      <div className="items-center grid-flow-col mx-auto lg:mx-0">
+        <p className="text-white  font-mono">
           Copyright © 2022 - All right reserved
         </p>
       </div>
-      <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+      <div className="grid-flow-col mx-auto lg:mx-0 gap-4 md:place-self-center md:justify-self-end">
         <a href="https://www.instagram.com/istieak_hasan/" target="_blank">
           <img
             className="w-[24px] h-[24px]"

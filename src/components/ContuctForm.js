@@ -143,8 +143,7 @@ const ContuctForm = () => {
             <div className="flex items-center mb-12">
               <GlobeAltIcon className="h-6 w-6 mr-5" />
               <p className="text-sm">
-                <span className="font-bold">Website:</span>Muktagacha Mymensing
-                Road,Jamalpur 2000
+                <span className="font-bold">Website:</span>https://istiakhasan.netlify.app/
               </p>
             </div>
           </div>

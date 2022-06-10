@@ -10,7 +10,7 @@ const ProjectCard = ({ project }) => {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <div  className="card h-fit mx-3 lg:mx-0 lg:hover:scale-[1.1] transition-[.4s]     ">
+    <div  className="card h-fit mx-3    lg:mx-0 hover:scale-90   transition-[.4s]  ">
       <div data-aos="fade-in" className="w-[80%] border-red-300 border-2 shadow-xl  mx-auto bg-base-100 rounded-lg ">
         <figure className="px-3 pt-3">
           <img
