@@ -31,7 +31,7 @@ const AboutMe = () => {
             </div>
           </div>
           <p className="text-lg mt-3  text-gray-600">
-            A front-end developer with over 2 yearsof experience in designing
+            A front-end developer with over 2 years of experience in designing
             and developing user interfaces, testing and debugging. Learning
             Something new and improving my knowledge, skills and abilities are
             my main focus. To work as part of a dynamic, team where there is an
