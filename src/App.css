@@ -21,3 +21,9 @@
     border-radius: 8px;
    
 }
+.project-card{
+    transition: .4s;
+}
+.project-card:hover{
+    transform: scale(1.1);
+}
