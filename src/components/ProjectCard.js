@@ -10,8 +10,8 @@ const ProjectCard = ({ project }) => {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <div data-aos="fade-in" className="card h-fit mx-3 lg:mx-0   project-card  ">
-      <div className="w-[80%] border-red-300 border-2 shadow-xl  mx-auto bg-base-100 rounded-lg ">
+    <div  className="card h-fit mx-3 lg:mx-0   project-card  ">
+      <div data-aos="fade-in" className="w-[80%] border-red-300 border-2 shadow-xl  mx-auto bg-base-100 rounded-lg ">
         <figure className="px-3 pt-3">
           <img
             style={{ height: "25vh", objectFit: "cover", width: "100%" }}

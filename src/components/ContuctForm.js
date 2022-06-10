@@ -42,7 +42,7 @@ const ContuctForm = () => {
         Contact
       </h1>
       <div className="lg:grid grid-cols-2 gap-5 w-[80%] mx-auto ">
-        <div className="bg-gradient-to-r from-primary to-[#852f17] lg:px-10 py-16 ">
+        <div data-aos="fade-up" className="bg-gradient-to-r from-primary to-[#852f17] lg:px-10 py-16 ">
           <form
             className="w-[90%] mx-auto outline-none"
             ref={form}
@@ -112,7 +112,7 @@ const ContuctForm = () => {
             </button>
           </form>
         </div>
-        <div className="text-white flex flex-col justify-center px-5 mt-10 lg:mt-0">
+        <div data-aos="fade-up" className="text-white flex flex-col justify-center px-5 mt-10 lg:mt-0">
           <h1 className="underline text-slate-500 font-semibold text-2xl decoration-red-500 ">
             Contact Me
           </h1>

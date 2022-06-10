@@ -12,7 +12,7 @@ const Skills = () => {
         My Skills
       </h1>
       <div className="lg:grid grid-cols-2 gap-5">
-        <div>
+        <div data-aos="fade-up">
           <div className="w-[70%] mx-auto lg:mx-0">
             <p className="text-slate-900 font-semibold mb-2">JavaScript</p>
             <div className="w-full mb-5 bg-gray-200 rounded-full dark:bg-gray-700 ">
@@ -59,7 +59,7 @@ const Skills = () => {
           </div>
         </div>
 
-        <div>
+        <div data-aos="fade-up">
           <div className="w-[70%] mx-auto">
             <p className="text-slate-900 font-semibold mb-2">HTML</p>
             <div className="w-full mb-5 bg-gray-200 rounded-full dark:bg-gray-700 ">
