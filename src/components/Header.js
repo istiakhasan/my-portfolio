@@ -1,11 +1,11 @@
 import React from 'react';
 import Banner from './Banner';
-import Navbar from './Navbar';
+
 
 const Header = () => {
     return (
-        <header className='h-screen'>
-                <Navbar />
+        <header className='min-h-[60vh] mt-20  '>
+              
                 <Banner />            
         </header>
     );

@@ -1,15 +1,17 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const ProjectCard = ({project}) => {
     const [details,setDetails]=useState(false)
+    const navigate=useNavigate()
     return (
-        <div class="card h-fit   shadow-xl">
+        <div className="card h-fit mx-3 lg:mx-0   shadow-xl">
          <div className='w-[90%] mx-auto bg-base-100 rounded-lg'>
-         <figure class="px-3 pt-3">
-            <img style={{height:"25vh",objectFit:"cover",width:"100%"}} className=' ' src={project.img} alt="Shoes" class="rounded-xl" />
+         <figure className="px-3 pt-3">
+            <img style={{height:"25vh",objectFit:"cover",width:"100%"}}  src={project.img} alt="Shoes" className="rounded-xl" />
           </figure>
-          <div class="card-body items-center ">
-            <h2 class="card-title">{project.name}</h2>
+          <div className="card-body items-center ">
+            <h2 className="card-title">{project.name}</h2>
             {
                 details&&<>
                   <div>
@@ -26,8 +28,9 @@ const ProjectCard = ({project}) => {
                 </>
             }
             
-            <div class="card-actions">
-              <button onClick={()=>setDetails(!details)} className="btn btn-primary btn-sm">Details</button>
+            <div className="card-actions">
+              <button onClick={()=>setDetails(!details)} className={`btn text-xs  btn-sm ${details ? "btn-error":"btn-primary"}`}>{details?"See Less":"see more"}</button>
+              <button onClick={()=>navigate(`project/${project.id}`)}  className={`btn text-xs  btn-sm btn-primary  bg-orange-500`}>Details</button>
             </div>
           </div>
          </div>

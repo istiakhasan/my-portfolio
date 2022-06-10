@@ -2,49 +2,49 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div id="skills">
-      <h1 className="text-white text-center text-4xl my-14">My Skills</h1>
-      <div className="grid grid-cols-2 gap-5">
+    <div id="skill" className="">
+      <h1 className="text-primary font-bold  text-center text-4xl my-20">My Skills</h1>
+      <div className="lg:grid grid-cols-2 gap-5">
         <div>
-           <div className="w-[70%]">
-           <p className="text-white">JavaScript</p>
-          <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700 ">
-            <div class="bg-red-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[85%]" >
+           <div className="w-[70%] mx-auto lg:mx-0">
+           <p className="text-slate-900 font-semibold mb-2">JavaScript</p>
+          <div className="w-full mb-5 bg-gray-200 rounded-full dark:bg-gray-700 ">
+            <div className="bg-red-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[85%]" >
               {" "}
               85%
             </div>
           </div>
-          <p className="text-white">ES6</p>
-          <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700 ">
-            <div class="bg-red-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[95%]" >
+          <p className="text-slate-900 font-semibold mb-2">ES6</p>
+          <div className="w-full mb-5 bg-gray-200 rounded-full dark:bg-gray-700 ">
+            <div className="bg-green-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[95%]" >
               {" "}
               95%
             </div>
           </div>
-          <p className="text-white">React</p>
-          <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700 ">
-            <div class="bg-red-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[95%]" >
+          <p className="text-slate-900 font-semibold mb-2">React</p>
+          <div className="w-full mb-5 bg-gray-200 rounded-full dark:bg-gray-700 ">
+            <div className="bg-slate-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[95%]" >
               {" "}
               95%
             </div>
           </div>
-          <p className="text-white">Express</p>
-          <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700 ">
-            <div class="bg-red-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[95%]" >
+          <p className="text-slate-900 font-semibold mb-2">Express</p>
+          <div className="w-full mb-5 bg-gray-200 rounded-full dark:bg-gray-700 ">
+            <div className="bg-yellow-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[95%]" >
               {" "}
               80%
             </div>
           </div>
-          <p className="text-white">NodeJs</p>
-          <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700 ">
-            <div class="bg-red-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[60%]" >
+          <p className="text-slate-900 font-semibold mb-2">NodeJs</p>
+          <div className="w-full mb-5 bg-gray-200 rounded-full dark:bg-gray-700 ">
+            <div className="bg-orange-800 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[60%]" >
               {" "}
               60%
             </div>
           </div>
-          <p className="text-white">MongoDB</p>
-          <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700 ">
-            <div class="bg-red-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[80%]" >
+          <p className="text-slate-900 font-semibold mb-2">MongoDB</p>
+          <div className="w-full mb-5 bg-gray-200 rounded-full dark:bg-gray-700 ">
+            <div className="bg-emerald-800 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[80%]" >
               {" "}
               80%
             </div>
@@ -58,44 +58,44 @@ const Skills = () => {
 
         <div>
             <div className="w-[70%] mx-auto">
-            <p className="text-white">HTML</p>
-          <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700 ">
-            <div class="bg-red-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[100%]" >
+            <p className="text-slate-900 font-semibold mb-2">HTML</p>
+          <div className="w-full mb-5 bg-gray-200 rounded-full dark:bg-gray-700 ">
+            <div className="bg-teal-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[100%]" >
               {" "}
               100%
             </div>
           </div>
-            <p className="text-white">HTML5</p>
-          <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700 ">
-            <div class="bg-red-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[95%]" >
+            <p className="text-slate-900 font-semibold mb-2">HTML5</p>
+          <div className="w-full mb-5 bg-gray-200 rounded-full dark:bg-gray-700 ">
+            <div className="bg-cyan-300 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[95%]" >
               {" "}
               95%
             </div>
           </div>
-            <p className="text-white">CSS3</p>
-          <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700 ">
-            <div class="bg-red-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[100%]" >
+            <p className="text-slate-900 font-semibold mb-2">CSS3</p>
+          <div className="w-full mb-5 bg-gray-200 rounded-full dark:bg-gray-700 ">
+            <div className="bg-[#2c2cacdd] text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[100%]" >
               {" "}
               100%
             </div>
           </div>
-            <p className="text-white">Mysql</p>
-          <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700 ">
-            <div class="bg-red-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[60%]" >
+            <p className="text-slate-900 font-semibold mb-2">Mysql</p>
+          <div className="w-full mb-5 bg-gray-200 rounded-full dark:bg-gray-700 ">
+            <div className="bg-[#862945dd] text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[60%]" >
               {" "}
               60%
             </div>
           </div>
-            <p className="text-white">Firebase</p>
-          <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700 ">
-            <div class="bg-red-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[80%]" >
+            <p className="text-slate-900 font-semibold mb-2">Firebase</p>
+          <div className="w-full mb-5 bg-gray-200 rounded-full dark:bg-gray-700 ">
+            <div className="bg-[#9c3457dd] text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[80%]" >
               {" "}
               80%
             </div>
           </div>
-            <p className="text-white">PHP</p>
-          <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700 ">
-            <div class="bg-red-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[60%]" >
+            <p className="text-slate-900 font-semibold mb-2">PHP</p>
+          <div className="w-full mb-5 bg-gray-200 rounded-full dark:bg-gray-700 ">
+            <div className="bg-[#5e5edfdd] text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[60%]" >
               {" "}
               60%
             </div>
