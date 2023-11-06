@@ -21,11 +21,11 @@ const Skills = () => {
                 85%
               </div>
             </div>
-            <p className="text-slate-900 font-semibold mb-2">ES6</p>
-            <div className="w-full mb-5 bg-gray-200 rounded-full dark:bg-gray-700 ">
+            <p className="text-slate-900 font-semibold mb-2">Next Js</p>
+            <div className="w-full mb-5 bg-gray-200 rounded-full dark:bg-red-700 ">
               <div className="bg-green-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[95%]">
                 {" "}
-                95%
+                90%
               </div>
             </div>
             <p className="text-slate-900 font-semibold mb-2">React</p>
@@ -33,6 +33,20 @@ const Skills = () => {
               <div className="bg-slate-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[95%]">
                 {" "}
                 95%
+              </div>
+            </div>
+            <p className="text-slate-900 font-semibold mb-2">TypeScript</p>
+            <div className="w-full mb-5 bg-gray-200 rounded-full dark:bg-gray-700 ">
+              <div className="bg-green-700 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[95%]">
+                {" "}
+                75%
+              </div>
+            </div>
+            <p className="text-slate-900 font-semibold mb-2">Redux & Redux RTK Query</p>
+            <div className="w-full mb-5 bg-gray-200 rounded-full dark:bg-gray-700 ">
+              <div className="bg-slate-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[95%]">
+                {" "}
+                80%
               </div>
             </div>
             <p className="text-slate-900 font-semibold mb-2">Express</p>
@@ -61,11 +75,32 @@ const Skills = () => {
 
         <div data-aos="fade-up">
           <div className="w-[70%] mx-auto">
-            <p className="text-slate-900 font-semibold mb-2">HTML</p>
+            <p className="text-slate-900 font-semibold mb-2">Prisma</p>
             <div className="w-full mb-5 bg-gray-200 rounded-full dark:bg-gray-700 ">
               <div className="bg-teal-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[100%]">
                 {" "}
-                100%
+                90%
+              </div>
+            </div>
+            <p className="text-slate-900 font-semibold mb-2">Postgresql</p>
+            <div className="w-full mb-5 bg-gray-200 rounded-full dark:bg-gray-700 ">
+              <div className="bg-emerald-900 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[100%]">
+                {" "}
+                80%
+              </div>
+            </div>
+            <p className="text-slate-900 font-semibold mb-2">Mysql</p>
+            <div className="w-full mb-5 bg-gray-200 rounded-full dark:bg-gray-700 ">
+              <div className="bg-[#594292dd] text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[60%]">
+                {" "}
+                60%
+              </div>
+            </div>
+            <p className="text-slate-900 font-semibold mb-2">Firebase</p>
+            <div className="w-full mb-5 bg-gray-200 rounded-full dark:bg-gray-700 ">
+              <div className="bg-[#9c3457dd] text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[80%]">
+                {" "}
+                80%
               </div>
             </div>
             <p className="text-slate-900 font-semibold mb-2">HTML5</p>
@@ -82,23 +117,10 @@ const Skills = () => {
                 100%
               </div>
             </div>
-            <p className="text-slate-900 font-semibold mb-2">Mysql</p>
-            <div className="w-full mb-5 bg-gray-200 rounded-full dark:bg-gray-700 ">
-              <div className="bg-[#862945dd] text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[60%]">
-                {" "}
-                60%
-              </div>
-            </div>
-            <p className="text-slate-900 font-semibold mb-2">Firebase</p>
-            <div className="w-full mb-5 bg-gray-200 rounded-full dark:bg-gray-700 ">
-              <div className="bg-[#9c3457dd] text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[80%]">
-                {" "}
-                80%
-              </div>
-            </div>
+           
             <p className="text-slate-900 font-semibold mb-2">PHP</p>
             <div className="w-full mb-5 bg-gray-200 rounded-full dark:bg-gray-700 ">
-              <div className="bg-[#5e5edfdd] text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[60%]">
+              <div className="bg-[#115218dd] text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[60%]">
                 {" "}
                 60%
               </div>

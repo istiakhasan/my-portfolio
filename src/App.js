@@ -11,7 +11,7 @@ import Blog from "./components/Blog";
 
 function App() {
   return (
-    <>
+    <div className="container mx-auto">
       <Navbar />
       <div className=" min-h-screen max-w-7xl mx-auto ">
         <Routes>
@@ -22,7 +22,7 @@ function App() {
       </div>
       <Footer />
       <ToastContainer />
-    </>
+    </div>
   );
 }
 
