@@ -18,7 +18,7 @@ const ContuctForm = () => {
 
     emailjs
       .sendForm(
-        "service_1t9lrxq",
+        "service_rduoi88",
         "template_yku1xc2",
         form.current,
         "hGaf0CeFC05tVDKRO"
